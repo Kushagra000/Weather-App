@@ -1,0 +1,111 @@
+.main{
+    margin: auto;
+    /* margin-top: 20px; */
+    /* display: flex; */
+    align-self: center;
+    justify-content: center;
+
+    width: 50%;
+    background-color: rgb(255, 251, 251);
+    border-radius: 20px;
+    padding: 10px;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    text-align: center;
+}
+.search-box{
+    font-size: x-large;
+    margin-top: 20px;
+    height: 30px;
+    max-width: 400px;
+    border: none;
+    border-bottom: 1px solid rgb(213, 211, 211);
+    border-top: 1px solid rgb(213, 211, 211);
+    text-align: center;
+    outline: none;
+}
+.search-btn{
+    margin-top: 10pX;
+    height: 27px;
+    width: 80px;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #282c3f;
+    font-weight: 600;
+    background-color: rgb(255, 251, 251);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+}
+.search-btn:active{
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+}
+.weather_card{
+    margin: auto;
+    margin-top: 20px;
+    align-self: center;
+    border: 0px solid black;
+    height: 350px;
+    width: 75%;
+    background-color: rgb(228, 235, 239);
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.city_name{
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.city_temp{
+    padding-top: 10px;
+    font-size: 70px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(103, 103, 203);
+}
+.city_weather{
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+}
+#boxes{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 10px;
+    justify-content: space-between;
+}
+#leftbox {
+    color: black;
+    float:left;
+    padding: 0;
+    /* background:Red; */
+    width:33%;
+    height:150px;
+}
+.detail{
+    color: blueviolet;
+    padding-left: 45px;
+    text-align: left;
+    margin: 0;
+}
+.right{
+    padding-left: 30px;
+}
+#middlebox{
+    float:left;
+    /* background:Green; */
+    width:33%;
+    height:150px;
+}
+#rightbox{
+    padding-top: 20px;
+    float:right;
+    /* background:blue; */
+    width:33%;
+    height:150px;
+}
+.right_ques{
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
